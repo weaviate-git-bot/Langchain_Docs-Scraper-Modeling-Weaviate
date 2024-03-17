@@ -73,7 +73,7 @@ Sure, you can use Docker Compose to run multiple services together. Here's an ex
 version: '3.4'
 services:
   weaviate:
-    image: semitechnologies/weaviate:latest
+    image: cr.weaviate.io/semitechnologies/weaviate:latest
     ports:
       - 8080:8080
     environment:
